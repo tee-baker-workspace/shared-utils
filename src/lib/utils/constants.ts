@@ -1,7 +1,7 @@
-import { IGender } from '../types';
+import { GenderOption } from "../types";
 
-export const GENDERS: { label: string; value: IGender }[] = [
-  { label: 'Male', value: 'male' },
-  { label: 'Female', value: 'female' },
-  { label: 'Other', value: 'other' },
+export const GENDERS: GenderOption[] = [
+  { label: "Male", value: "male" },
+  { label: "Female", value: "female" },
+  { label: "Other", value: "other" },
 ];

@@ -1,4 +1,8 @@
-export type IGender = 'male' | 'female' | 'other';
+export type IGender = "male" | "female" | "other";
+export interface GenderOption {
+  label: string;
+  value: IGender;
+}
 
 export interface IUser {
   id: string;
