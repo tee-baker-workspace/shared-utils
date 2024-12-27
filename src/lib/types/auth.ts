@@ -1,9 +1,10 @@
-import { IUser } from "./user";
+/* eslint-disable @typescript-eslint/no-empty-object-type */
+import { IUser } from './user';
 
 export interface IRegisterUser
   extends Omit<
     IUser,
-    "id" | "bio" | "user_name" | "gender" | "dob" | "phone_number"
+    'id' | 'bio' | 'user_name' | 'gender' | 'dob' | 'phone_number'
   > {
   confirm_password: string;
 }
@@ -11,7 +12,7 @@ export interface IRegisterUser
 export interface ILoginUser
   extends Omit<
     IUser,
-    "id" | "full_name" | "user_name" | "gender" | "dob" | "bio" | "phone_number"
+    'id' | 'full_name' | 'user_name' | 'gender' | 'dob' | 'bio' | 'phone_number'
   > {}
 export interface IAccessTokenResponse {
   access_token: string;
@@ -22,4 +23,4 @@ export interface IAuthSessionResponse {
 }
 
 export interface IUpdateUserPayload
-  extends Partial<Omit<IUser, "password" | "id">> {}
+  extends Partial<Omit<IUser, 'password' | 'id'>> {}
