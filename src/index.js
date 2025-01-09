@@ -8,7 +8,7 @@ export {
   GenericObject,
   IGender,
   IUser,
-} from './lib/types/index.ts';
+} from './lib/types';
 
-export { GENDERS } from './lib/utils/constants.ts';
-export { generateRandomUsername, isEmptyOrNil } from './lib/utils/helpers.ts';
+export { GENDERS } from './lib/utils/constants';
+export { generateRandomUsername, isEmptyOrNil } from './lib/utils/helpers';

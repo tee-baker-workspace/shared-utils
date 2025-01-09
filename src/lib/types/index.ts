@@ -1,3 +1,3 @@
-export * from './auth.ts';
-export * from './generic.ts';
-export * from './user.ts';
+export * from './auth';
+export * from './generic';
+export * from './user';
