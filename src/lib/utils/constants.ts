@@ -1,4 +1,4 @@
-import { GenderOption } from '../types/user.ts';
+import { GenderOption } from '../types/index.ts';
 
 export const GENDERS: GenderOption[] = [
   { label: 'Male', value: 'male' },
