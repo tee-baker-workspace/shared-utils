@@ -4,9 +4,9 @@ export {
   ILoginUser,
   IRegisterUser,
   IUpdateUserPayload,
-} from './lib/types/auth';
-export { GenericObject } from './lib/types/generic';
-export { GenderOption, IGender, IUser } from './lib/types/user';
+} from './lib/types/auth.ts';
+export { GenericObject } from './lib/types/generic.ts';
+export { GenderOption, IGender, IUser } from './lib/types/user.ts';
 
-export { GENDERS } from './lib/utils/constants';
-export { generateRandomUsername, isEmptyOrNil } from './lib/utils/helpers';
+export { GENDERS } from './lib/utils/constants.ts';
+export { generateRandomUsername, isEmptyOrNil } from './lib/utils/helpers.ts';

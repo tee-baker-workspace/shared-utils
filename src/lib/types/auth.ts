@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
-import { IUser } from './user';
+import { IUser } from './user.ts';
 
 export interface IRegisterUser
   extends Omit<
