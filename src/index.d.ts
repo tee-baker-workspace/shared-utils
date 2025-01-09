@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { GenderOption } from './lib/types';
+import { GenderOption } from './lib/types/user';
 
 export declare function isEmptyOrNil(value: any): boolean;
 export declare function generateRandomUsername(email: string): string;
