@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "shared utility library for tee baker",
   "main": "./src/index.js",
+  "type": "module",
   "typings": "./src/index.d.ts",
   "private": true,
   "author": "",
