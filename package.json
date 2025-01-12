@@ -1,10 +1,9 @@
 {
   "name": "@tee-baker/shared-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "shared utility library for tee baker",
   "main": "./dist/index.js",
-  "type": "module",
-  "module": "./dist/index.js",
+  "type": "commonjs",
   "typings": "./dist/index.d.ts",
   "author": "",
   "license": "ISC",
