@@ -1,11 +1,10 @@
 {
-  "name": "shared-utils",
+  "name": "@tee-baker/shared-utils",
   "version": "1.0.0",
   "description": "shared utility library for tee baker",
   "main": "./src/index.js",
   "type": "module",
   "typings": "./src/index.d.ts",
-  "private": true,
   "author": "",
   "license": "ISC",
   "scripts": {
@@ -40,5 +39,20 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md "
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tee-baker-workspace/shared-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tee-baker-workspace/shared-utils/issues"
+  },
+  "homepage": "https://github.com/tee-baker-workspace/shared-utils#readme"
 }
