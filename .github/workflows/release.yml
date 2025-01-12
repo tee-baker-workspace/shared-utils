@@ -7,11 +7,11 @@ on:
   push:
     branches:
       - main
-      - beta
+      - next
   pull_request:
     branches:
       - main
-      - beta
+      - next
 
 jobs:
   release:
