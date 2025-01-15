@@ -10,6 +10,7 @@
   "scripts": {
     "lint": "eslint .",
     "build": "tsc",
+    "prepare": "npm run build",
     "semantic-release": "semantic-release",
     "test": "jest",
     "test:watch": "jest --watch",
