@@ -15,7 +15,7 @@
     "declaration": true,
     "emitDeclarationOnly": false
   },
-  "include": ["src/**/*.ts", "src/index.js"],
+  "include": ["src/**/*.ts", "src/index.ts"],
   "exclude": [
     "jest.config.ts",
     "src/**/*.spec.ts",
