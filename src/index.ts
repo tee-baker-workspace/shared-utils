@@ -8,6 +8,12 @@ export {
   GenericObject,
   IGender,
   IUser,
+  IStableImageErrorResponse,
+  IStableImagePayload,
+  IStableImageResponse,
+  StableImageAspectRatios,
+  StableImageOutputFormat,
+  StableImageStylePreset,
 } from './lib/types';
 
 export { GENDERS } from './lib/utils/constants';
