@@ -9,12 +9,18 @@ export {
   IGender,
   IUser,
   IStableImageErrorResponse,
-  IStableImagePayload,
   IStableImageResponse,
+  IStableImagePayload,
+  TStableImageAspectRatios,
+  TStableImageOutputFormat,
+  TStableImageStylePreset,
+} from './lib/types';
+
+export {
   StableImageAspectRatios,
   StableImageOutputFormat,
   StableImageStylePreset,
-} from './lib/types';
+} from './lib/enums';
 
 export { GENDERS } from './lib/utils/constants';
 export { generateRandomUsername, isEmptyOrNil } from './lib/utils/helpers';

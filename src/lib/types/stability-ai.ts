@@ -1,5 +1,5 @@
-export type StableImageOutputFormat = 'jpeg' | 'png' | 'webp';
-export type StableImageAspectRatios =
+export type TStableImageOutputFormat = 'jpeg' | 'png' | 'webp';
+export type TStableImageAspectRatios =
   | '16:9'
   | '1:1'
   | '21:9'
@@ -10,7 +10,7 @@ export type StableImageAspectRatios =
   | '9:16'
   | '9:21';
 
-export type StableImageStylePreset =
+export type TStableImageStylePreset =
   | '3d-model'
   | 'analog-film'
   | 'anime'
@@ -31,9 +31,9 @@ export type StableImageStylePreset =
 
 export interface IStableImagePayload {
   prompt: string;
-  output_format?: StableImageOutputFormat;
-  aspect_ratio?: StableImageAspectRatios;
-  style_preset?: StableImageStylePreset;
+  output_format?: TStableImageOutputFormat;
+  aspect_ratio?: TStableImageAspectRatios;
+  style_preset?: TStableImageStylePreset;
   seed?: number;
   negative_prompt?: string;
 }
