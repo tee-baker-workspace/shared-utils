@@ -20,6 +20,7 @@ export {
   StableImageAspectRatios,
   StableImageOutputFormat,
   StableImageStylePreset,
+  GenerationProvider,
 } from './lib/enums';
 
 export { GENDERS } from './lib/utils/constants';
